@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         submitButton.textContent = "Sending...";
 
         try {
-            const response = await fetch('http://localhost:5000/sendmail', {
+            const response = await fetch('https://tamilarasan.onrender.com/sendmail', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, subject, message })
