@@ -258,17 +258,17 @@ nav {
     .iconstop{
         display: flex;
         position: relative;
-        left: 105%;
+        left: 100%;
         top: -70px;
         animation: slide 3s ease-in-out infinite alternate; 
     }
 
     @keyframes slide {
         0%{
-            transform: translatex(-10px);
+            transform: translatex(-20px);
         }
         50%{
-            transform: translateX(10px)
+            transform: translateX(20px)
         }
         100%{
             transform: translateX(-10px);
@@ -279,7 +279,7 @@ nav {
         display: flex;
         position: relative;
         top: 85px;
-        right: 105%;
+        right: 100%;
         animation: slider 3s ease-in-out infinite alternate; 
     }
 
@@ -291,7 +291,7 @@ nav {
             transform: translateX(-10px)
         }
         100%{
-            transform: translateX(10px);
+            transform: translateX(30px);
         }
     }
     .iconstop ul, .iconsbottom ul {
